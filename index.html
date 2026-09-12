@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe7">
+  <title>澳洲国庆旅行计划 · Australia Holiday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__top"><span>AUSTRALIA · 2026</span><span>6 TRAVELLERS</span></div>
+    <div class="hero__content">
+      <p class="eyebrow">国庆假期旅行手册 <span>/</span> NATIONAL DAY HOLIDAY</p>
+      <h1>澳洲<br><em>慢游记</em></h1>
+      <p class="hero__intro">墨尔本 · 大洋路 · 塔斯马尼亚 · 悉尼<br><span>Melbourne · Great Ocean Road · Tasmania · Sydney</span></p>
+    </div>
+    <div class="hero__route"><span>09.26</span><i></i><span>10.05</span></div>
+  </header>
+
+  <main>
+    <section class="travellers panel">
+      <div><p class="eyebrow">同行旅伴 / TRAVELLERS</p><h2>六人同行，三组家庭</h2></div>
+      <div class="traveller-list"><span>老汪家庭 <b>Wang family</b></span><span>老付家庭 <b>Fu family</b></span><span>表哥家庭 <b>Chen Yang &amp; Yuki</b></span></div>
+    </section>
+
+    <section class="day-picker-wrap">
+      <div class="section-heading"><p class="eyebrow">每日计划 / DAILY PLAN</p><span id="day-count"></span></div>
+      <nav class="day-picker" id="day-picker" aria-label="选择旅行日期"></nav>
+    </section>
+
+    <section id="day-view" class="day-view" aria-live="polite"></section>
+  </main>
+
+  <footer><span>AUSTRALIA 2026</span><span>祝旅途愉快 · HAVE A WONDERFUL JOURNEY</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
